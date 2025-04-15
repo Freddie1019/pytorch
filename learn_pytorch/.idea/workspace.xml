@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://E:/Anaconda3/envs/chatgpt/Lib/site-packages/torchvision/transforms/__init__.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://E:/Anaconda3/envs/chatgpt/Lib/site-packages/torchvision/transforms/transforms.py" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +36,7 @@
   "keyToString": {
     "Python.Useful_Transforms_04.executor": "Run",
     "Python.dataloader.executor": "Run",
+    "Python.dataloader_06.executor": "Run",
     "Python.dataset_transform_05.executor": "Run",
     "Python.model.executor": "Run",
     "Python.model_load_19.executor": "Run",
@@ -49,6 +53,7 @@
     "Python.nn_optim_16.executor": "Run",
     "Python.nn_sequential_13.executor": "Run",
     "Python.read_data.executor": "Run",
+    "Python.read_data_01.executor": "Run",
     "Python.test_23.executor": "Run",
     "Python.test_TensorBoard.executor": "Run",
     "Python.test_TensorBoard_02.executor": "Run",
@@ -58,6 +63,7 @@
     "Python.train_gpu2_22.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/code/learn_pytorch",
     "node.js.detected.package.eslint": "true",
@@ -75,7 +81,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.dataset_transform_05">
+  <component name="RunManager">
     <configuration name="Useful_Transforms_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learn_pytorch" />
       <option name="ENV_FILES" value="" />
@@ -262,8 +268,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train_gpu1_21" />
         <item itemvalue="Python.dataset_transform_05" />
+        <item itemvalue="Python.train_gpu1_21" />
         <item itemvalue="Python.model" />
         <item itemvalue="Python.Useful_Transforms_04" />
         <item itemvalue="Python.test_TensorBoard_02" />
@@ -307,7 +313,8 @@
       <workItem from="1743224383644" duration="678000" />
       <workItem from="1743227924632" duration="1170000" />
       <workItem from="1744089782231" duration="135000" />
-      <workItem from="1744686350615" duration="610000" />
+      <workItem from="1744686350615" duration="627000" />
+      <workItem from="1744698233512" duration="1224000" />
     </task>
     <servers />
   </component>
@@ -318,6 +325,8 @@
     <SUITE FILE_PATH="coverage/learn_pytorch$train_gpu1_21.coverage" NAME="train_gpu1_21 覆盖结果" MODIFIED="1743142233527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$nn_conv_08.coverage" NAME="nn_conv_08 覆盖结果" MODIFIED="1742473674362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$model_pretrained_17.coverage" NAME="model_pretrained_17 覆盖结果" MODIFIED="1742821915772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_pytorch$dataloader_06.coverage" NAME="dataloader_06 覆盖结果" MODIFIED="1744698385080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_pytorch$read_data_01.coverage" NAME="read_data_01 覆盖结果" MODIFIED="1744698538929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$nn_loss_network_15.coverage" NAME="nn_loss_network_15 覆盖结果" MODIFIED="1742693013036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$test_23.coverage" NAME="test_23 覆盖结果" MODIFIED="1743151582325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$nn_module_07.coverage" NAME="nn_module_07 覆盖结果" MODIFIED="1742348969697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -329,7 +338,7 @@
     <SUITE FILE_PATH="coverage/learn_pytorch$nn_maxpool_10.coverage" NAME="nn_maxpool_10 覆盖结果" MODIFIED="1742474732397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$read_data.coverage" NAME="read_data 覆盖结果" MODIFIED="1741756279970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$test_Transforms_03.coverage" NAME="test_Transforms_03 覆盖结果" MODIFIED="1741844132391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/learn_pytorch$dataset_transform_05.coverage" NAME="dataset_transform_05 覆盖结果" MODIFIED="1743141314556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_pytorch$dataset_transform_05.coverage" NAME="dataset_transform_05 覆盖结果" MODIFIED="1744698356625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$dataloader.coverage" NAME="dataloader 覆盖结果" MODIFIED="1742303299613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$nn_sequential_13.coverage" NAME="nn_sequential_13 覆盖结果" MODIFIED="1742536059980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_pytorch$nn_optim_16.coverage" NAME="nn_optim_16 覆盖结果" MODIFIED="1742694526719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
